@@ -1,15 +1,9 @@
-# bun-bug-export-types
+# bun 1.0.34 regression bug: segmentation fault with empty exports
 
-To install dependencies:
+to reproduce:
 
 ```bash
+curl -fsSL https://bun.sh/install | bash -s "bun-v1.0.34"
 bun install
+bun start
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.34. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
